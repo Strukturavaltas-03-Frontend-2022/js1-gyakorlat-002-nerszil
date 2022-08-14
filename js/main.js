@@ -4,3 +4,13 @@
 - A függvény neve `generateList` legyen!
 - A HTML-template egy lista, amelynek a listaelemei a kapott tömb értékeit tartalmazzák.
 */
+'use trickt'
+
+const generateList = (main) => {
+    return ("<ul>" + 
+    main.forEach((list) => {
+        "<li>" + list + "</li>";
+    })+
+    "</ul>"
+    );
+};
